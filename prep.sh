@@ -1,3 +1,5 @@
+mkdir workspace
+
 # remove extra new lines
 sed -i '/^$/d' $1
 
