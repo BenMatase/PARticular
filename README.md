@@ -1,7 +1,7 @@
-# PARticular
-A machine learning approach to finding a realistic par (starting with disc golf)
+# par.lor
+A machine learning par tailor to help you improve your disc golf game.
 
 
-## Dev notes:
-To get the data set on yourself, first download the csv version of your scorecards on uDisc.
-Then feed that script into the command `csplit --digits=2 --quiet --prefix=ben_dg_csv ~/Downloads/Telegram\ Desktop/udisc-csv-1525834822921.csv "/PlayerName/" "{*}"`
+## Dev notes
+To get the data set on yourself, first download the csv version of your scorecards on uDisc. Then change into the root directory of the repo and run the prep script.
+`cd path/to/repo && sh prep.sh`
